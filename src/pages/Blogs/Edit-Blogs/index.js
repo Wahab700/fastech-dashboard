@@ -92,6 +92,8 @@ const EditBlog = () => {
                         placeholder="Enter Job Title"
                         name="image"
                         value={loadData.image}
+                        onChange={handleUpdate}
+                        required
                       />
                     </div>
 
@@ -109,6 +111,8 @@ const EditBlog = () => {
                         placeholder="Enter Positions"
                         name="Category"
                         value={loadData.Category}
+                        onChange={handleUpdate}
+                        required
                       />
                     </div>
 
@@ -126,6 +130,8 @@ const EditBlog = () => {
                         placeholder="Enter Department"
                         name="Title"
                         value={loadData.Title}
+                        onChange={handleUpdate}
+                        required
                       />
                     </div>
                   </CardBody>

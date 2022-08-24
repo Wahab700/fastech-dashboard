@@ -328,6 +328,12 @@ const Navdata = () => {
           link: "/blogs-blog-list",
           parentId: "blogs",
         },
+        // {
+        //   id: "edit blogs",
+        //   label: "Edit Blogs",
+        //   link: "/blogs-edit-blog",
+        //   parentId: "blogs",
+        // },
       ],
     },
 
